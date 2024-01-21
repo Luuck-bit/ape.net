@@ -1,0 +1,73 @@
+.subfooter{
+    background-color: #2a1e03;
+    text-align: center;
+}
+
+.more_dogs{
+    background-color: var(--primary-color);
+}
+
+
+.about{
+    padding-top: 3rem;
+    background-color: var(--primary-color);
+
+}
+
+.gallery{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.more_dogs{
+    background-color: var(--primary-color);
+}
+
+
+.about{
+    padding-top: 3rem;
+    background-color: var(--primary-color);
+
+}
+
+.gallery{
+    display: flex;
+    justify-content: space-between;
+}
+
+.video__dogs{
+    height: 30rem;
+    float: left;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    margin-left: 8vw;
+    margin-top: 2rem;
+    box-shadow: 0 0rem 2rem -.1rem var(--items-color);
+}
+
+.back__video{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), var(--primary-color));
+    position: relative;
+    overflow: hidden;
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+}
+.big__video{
+    width: 100%;
+    height: 20rem; /*toda a área de visualização do site*/
+    object-fit: cover; /*especificar como o objeto vai ser dimensionado, tipo um background-position*/
+    position: absolute;
+    z-index: -10; /*mover eixo z*/
+    
+}
+
+.billy_description{
+    background-color: var(--primary-color);
+    
+}
+
+
+

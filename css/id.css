@@ -1,0 +1,97 @@
+#describle_dogs{
+    color: var(--items-color);
+}
+
+#right__side{
+    float: inline-end;
+    margin-right: 8vw;
+    margin-left: 1rem;
+}
+
+#link_description{
+    padding-left: 25vw;
+}
+
+#aboutext, #normal_text{
+    background-color: var(--primary-color);
+    color: var(--items-color);
+    
+}
+
+#seemore{
+    color: #463105;
+}
+
+#here{
+    
+    height: 4rem;
+    width: 12rem;
+    padding: 0;
+    display: inline-block;
+    padding-left: 17rem;
+}
+
+#here:hover{
+    border: 2px solid var(--items-color);
+    transform: scale(1.1);
+} 
+
+#here{ animation: pulse 2s infinite;}
+@keyframes pulse {
+    0%, 100%{transform: scale(1);}
+    50%{transform: scale(1.2);}
+}
+
+#why_we_do{
+    padding-left: 37vw;
+    padding-right: 37vw;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: var(--items-color);
+    color: var(--primary-color);
+    border-radius: 100px;  
+}
+
+#c1, #c2, #c3, #c4{
+    cursor: pointer;
+}
+
+#c1:hover, #c2:hover, #c3:hover, #c4:hover{
+    transform: scale(1.1);
+}
+
+#c1, #c2{animation: slideIn 2s infinite;}
+@keyframes slideIn{
+    
+
+    30% {transform: translateX(30%);}
+    10% {transform: translateX(10%);}
+   
+}
+
+#c3, #c4{animation: slideIn 2s infinite;}
+@keyframes slideIn{
+    
+    30% {transform: translateX(30%);}
+    10% {transform: translateX(10%);}
+   
+}
+
+#github{
+    height: 2.5rem;
+    display: flex;
+    justify-content: end;
+    padding: 6px;
+    padding-left: 48.5vw;
+}
+
+#gita{
+    padding: 0;
+}
+
+#f{
+    color: #fff;
+    font-size: .8rem;
+    padding: 5px;
+}
+
